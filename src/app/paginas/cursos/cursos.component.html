@@ -1,0 +1,18 @@
+<p>cursos works!</p>
+
+<a routerLink="/incluir-curso">Novo Curso</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let c of cursos">
+            <td>{{c.nome}}</td>
+            <td>{{c.valor}}</td>
+        </tr>
+    </tbody>
+</table> 
